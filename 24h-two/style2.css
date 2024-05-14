@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* main */
+.main {
+  display: block;
+  width: 1004px;
+  margin: 0 auto;
+}
+
+.main-left {
+  width: 687px;
+}
+
+.CNTT {
+  margin-top: 10px;
+}
+.CNTT-above {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.CNTT-above_tittle {
+  display: flex;
+  flex-direction: row;
+  color: #378b36;
+  font-size: 18px;
+}
+.CNTT-TC {
+  padding-right: 5px;
+}
+.CNTT-CNTT {
+  border-left: 1px solid #378b36;
+  padding-left: 5px;
+  font-weight: 800;
+}
+
+.CNTT-above_share {
+  display: flex;
+  flex-direction: row;
+  background: #209956;
+  border-radius: 5px;
+  color: white;
+  font-size: 12px;
+  padding: 3px 10px;
+}
+
+.CNTT-below ul {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  font-size: 14px;
+  font-weight: 300;
+  /* justify-content: space-around; */
+  align-content: flex-start;
+  border-bottom: 1px solid #e1e1e1;
+  padding-bottom: 2px;
+}
+.CNTT-below li {
+  background: #e1e1e1;
+  border-radius: 2px;
+  margin-right: 4px;
+}
+.main-right {
+  width: 300px;
+}
+
+/* Columnimage */
+.column {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.column1 {
+  position: relative;
+  padding-right: 10px;
+}
+.column1-img {
+  width: 458px;
+  height: 333px;
+}
+
+.column1-content {
+  position: absolute;
+  background: linear-gradient(180deg, transparent, black);
+  color: white;
+  top: 73%;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  margin-right: 10px;
+}
+
+.column2 {
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid #e1e1e1;
+  padding-left: 10px;
+}
+
+.column2-content_above {
+  position: relative;
+}
+.column2-img {
+  height: 160px;
+}
+.column2-content_write {
+  position: absolute;
+  top: 64%;
+  background: linear-gradient(180deg, transparent, black);
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+
+.column2-content_below {
+  position: relative;
+  margin-top: 2px;
+}
+.column2-content_letter {
+  position: absolute;
+  top: 64%;
+  background: linear-gradient(180deg, transparent, black);
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+}

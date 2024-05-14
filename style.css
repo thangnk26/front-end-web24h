@@ -1,0 +1,401 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* header */
+.header {
+  width: 100%;
+  background: #78b43d;
+}
+.header-tittle {
+  display: block;
+  width: 1004px;
+  height: 50px;
+  margin: 0 auto;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+}
+
+.tittle {
+  display: inline-block;
+  height: 50px;
+  color: white;
+}
+/* image */
+.tittle-img {
+  display: flex;
+  align-items: center;
+  padding: 0 5px;
+}
+
+/* danh mục */
+ul.tittle-dm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 6px;
+  border-left: 1px solid #90c95a;
+  border-right: 1px solid #90c95a;
+  position: relative;
+}
+
+ul.tittle-dm li div i {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+ul.tittle-dm:hover .menu-dm {
+  display: block;
+}
+
+/* hover danh muc */
+.menu-dm {
+  position: absolute;
+  width: 157px;
+  background: #90c95a;
+  color: black;
+  top: 100%;
+  right: 20%;
+  display: none;
+}
+.menu-dm li {
+  display: block;
+  line-height: 20px;
+  text-indent: 10px;
+  border-bottom: 1px solid #78b43d;
+  position: relative;
+}
+.menu-dm :hover {
+  background: #78b43d;
+}
+.menu-dm_sub {
+  width: 157px;
+  background: #78b43d;
+  position: absolute;
+  left: 100%;
+  top: 0%;
+  display: none;
+  color: white;
+}
+.menu-dm_sub li {
+  border-bottom: 1px solid #90c95a;
+}
+.menu-dm_sub li a {
+  color: white;
+  line-height: 20px;
+}
+
+/* hover menu sub */
+.menu-dm :hover .menu-dm_sub {
+  display: block;
+  color: white;
+}
+
+/* crossbar ul */
+ul.tittle-cross {
+  display: flex;
+  margin-right: 54px;
+}
+ul.tittle-cross li {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 5px;
+}
+ul.tittle-cross li div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+ul.tittle-cross li div img {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 5px;
+}
+
+/* icon */
+.tittle-icon {
+  border-left: 1px solid #90c95a;
+  border-right: 1px solid #90c95a;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+/* main-sidebar */
+.main-sidebar {
+  width: 1004px;
+  display: block;
+  margin: 0 auto;
+}
+.main {
+  /* margin: ; */
+  width: 699px;
+  float: left;
+  /* display: inline-block; */
+}
+
+.content-news {
+  width: 347px;
+  display: inline-block;
+  margin-bottom: 6px;
+}
+
+.content-news_tittle li {
+  font-size: 12px;
+  display: inline-block;
+}
+
+.content-news-item {
+  display: inline-block;
+  width: 100%;
+}
+
+.content-news_image {
+  height: 100px;
+  width: 100px;
+  float: left;
+}
+
+.content-news_main {
+  font-size: 12px;
+  display: block;
+  overflow: hidden;
+}
+
+.content-news-similar {
+  background-color: #eaf8d2;
+}
+
+.content-news-other {
+  background-color: #d5ecab;
+}
+
+.image-qc {
+  width: 100%;
+  height: 150px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.sidebar {
+  width: 300px;
+  float: right;
+}
+
+.sidebar-image {
+  width: 100%;
+}
+
+.TTTT-news li {
+  display: inline-block;
+}
+.TTTT-news li img {
+  float: left;
+  margin-right: 5px;
+  width: 100px;
+  height: 75px;
+}
+
+.TTCK-list li {
+  display: inline-block;
+}
+
+.TTCK-news li {
+  display: inline-block;
+}
+
+.TTCK-news li img {
+  float: left;
+  margin-right: 5px;
+  width: 100px;
+  height: 75px;
+}
+
+.DRCPD-news li {
+  display: inline-block;
+}
+
+.DRCPD-news li img {
+  float: left;
+  margin-right: 5px;
+  width: 100px;
+  height: 75px;
+}
+
+.DRCPD-other li {
+  display: inline-block;
+  margin: 5px 10px;
+}
+
+.DRCPD-index li {
+  display: inline-block;
+}
+
+.VDCL {
+  margin-top: 20px;
+  display: block;
+}
+.VDCL-total {
+  display: block;
+}
+.VDCL-left {
+  display: inline-block;
+  width: 400px;
+  /* float: left; */
+  margin-right: 10px;
+}
+
+.VDCL-right {
+  display: inline-block;
+  width: 275px;
+  height: 336px;
+  border-left: 1px solid #ddd;
+  padding-left: 15px;
+  overflow-y: scroll;
+}
+
+.VDCL-title {
+  display: block;
+  border-bottom: 2px solid #78b43d;
+  color: #78b43d;
+  font-size: 17px;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.VDCL-right li {
+  display: inline-block;
+  overflow: hidden;
+}
+.VDCL-right li iframe {
+  float: left;
+}
+
+.TTCB {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.TTCB-news {
+  display: inline-block;
+  font-size: 15px;
+  /* float: left; */
+}
+
+.TTCB-news table {
+  border: 1px solid #e7e7e7;
+}
+
+.DMSK {
+  width: 100%;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-bottom: 100px;
+}
+.DMSK-tittle li {
+  display: inline-block;
+}
+
+.DMSK-content_image {
+  width: 120px;
+  height: 90px;
+  float: left;
+  margin-right: 10px;
+}
+
+.DMSK-content_news {
+  position: relative;
+}
+.DMSK-content_news ul {
+  position: absolute;
+  right: 38.5%;
+}
+
+.TTDN {
+  display: inline-block;
+  width: 100%;
+}
+
+.TTDN-content {
+  background: #fff1d9;
+}
+
+.TTDN-content {
+  border-top: 2px solid #ef7930;
+}
+
+.TTDN-content li {
+  /* padding-top: 10px; */
+  width: 240px;
+  display: inline-block;
+}
+.TTDN-content img {
+  float: left;
+  margin: 15px;
+  /* display: inline-block; */
+}
+
+.TTDN-content p {
+  margin-top: 13px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.menufooter {
+  display: block;
+  width: 100%;
+  background: #ebebeb;
+}
+.menufooter-content {
+  display: block;
+  width: 1004px;
+  margin: 0 auto;
+}
+.menufooter-news li {
+  display: inline-block;
+}
+
+.menugreen {
+  display: block;
+  width: 100%;
+  background: #78b43d;
+}
+.menugreen-content {
+  text-align: center;
+  display: block;
+}
+.menugreen-content_news li {
+  color: white;
+  display: inline-block;
+  font-weight: 600;
+}
+.border {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-right: 2px solid #e7e7e7;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.footer {
+  color: #7d7d7d;
+  margin: 0 auto;
+  width: 1004px;
+  line-height: 1.4;
+  display: block;
+  text-align: center;
+}

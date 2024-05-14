@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.header {
+  width: 100%;
+  background: #78b43d;
+}
+.header-tittle {
+  display: block;
+  width: 1004px;
+  height: 50px;
+  margin: 0 auto;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+}
+
+.tittle {
+  display: inline-block;
+  height: 50px;
+  color: white;
+}
+/* image */
+.tittle-img {
+  display: flex;
+  align-items: center;
+  padding: 0 5px;
+}
+
+/* danh mục */
+ul.tittle-dm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 6px;
+  border-left: 1px solid #90c95a;
+  border-right: 1px solid #90c95a;
+  position: relative;
+}
+
+
+ul.tittle-dm li div i {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+
+
+ul.tittle-dm:hover .menu-dm {
+  display: block;
+}
+
+/* hover danh muc */
+.menu-dm {
+  position: absolute;
+  width: 157px;
+  background: #90c95a;
+  color: black;
+  top: 100%;
+  right: 20%;
+  display: none;
+}
+.menu-dm li {
+  display: block;
+  line-height: 20px;
+  text-indent: 10px;
+  border-bottom: 1px solid #78b43d;
+  position: relative;
+}
+.menu-dm :hover {
+  background: #78b43d;
+}
+.menu-dm_sub {
+  width: 157px;
+  background: #78b43d;
+  position: absolute;
+  left: 100%;
+  top: 0%;
+  display: none;
+  color: white;
+}
+.menu-dm_sub li {
+  border-bottom: 1px solid #90c95a;
+}
+.menu-dm_sub li a {
+  color: white;
+  line-height: 20px;
+}
+
+/* hover menu sub */
+.menu-dm :hover .menu-dm_sub {
+  display: block;
+  color: white;
+}
+
+/* crossbar ul */
+ul.tittle-cross {
+  display: flex;
+  margin-right: 54px;
+}
+ul.tittle-cross li {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 5px;
+}
+ul.tittle-cross li div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+ul.tittle-cross li div img {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 5px;
+}
+
+/* icon */
+.tittle-icon {
+  border-left: 1px solid #90c95a;
+  border-right: 1px solid #90c95a;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
